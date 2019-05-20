@@ -1,0 +1,3 @@
+[console_scripts]
+pydeploy = pydeploy.entry_points.pydeploy:main
+
