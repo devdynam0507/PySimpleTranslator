@@ -116,8 +116,6 @@ class Ui_MainWindow(object):
     def onClickPushBtn(self):
         translate_target_str = self.textEdit.toPlainText()
         destination_lang = translator.get_lang(self.listView_2.selectionModel().currentIndex().row())
-        print(destination_lang)
-        print(translate_target_str)
         self.textEdit_2.setPlainText(translator.translate(destination_lang, translate_target_str))
 
 if __name__ == "__main__":
